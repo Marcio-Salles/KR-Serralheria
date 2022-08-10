@@ -1,0 +1,313 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; }
+
+/* Header */
+
+header { border-top: 10px solid #fff;
+         display: flex;
+         border-left:10px solid #fff;
+         align-items: center;
+         background-color:#062d54;
+         width: 99.9%;
+         height: 180px;
+         background: linear-gradient(72deg , rgb(74, 35, 35) 35%, rgb(19, 18, 18), rgb(191, 43, 43)99% ) ;  
+         justify-content: right;
+         box-shadow: insert 0px 2px 3px rgba 0 0 0 0.25; }
+
+img { position: relative;
+      top: 8px;
+      right: 645px;
+      width: 100%;
+      padding: 15px; }
+
+div { width: 200px;
+      height: 200px; }
+
+ .kr { color: white;
+       font-size: 60px;
+       position: relative;
+       left: 185px;
+       text-shadow: red 3px 3px; }
+
+header form { position: relative;
+              top: 30px;
+              right: 10px;
+              width: 30%;
+              height: 40vh;
+              box-shadow: 0px 3px 4px inset 0px 4px 4px;
+              border-radius: 18px;
+              padding: 1%;
+              display: flex;
+              flex-direction: column;
+              align-items: center; }
+
+header form .links-container { width: 100%;
+                               display: flex;
+                               flex-direction: column;
+                               align-items: center;
+                               margin-top: 10%; }
+
+ header form .links-container span { font-size: 0.8em;
+                                     font-weight: 600;
+                                     color: #fff; }
+
+header form .links-container aside { margin-top: 5%;
+                                     width: 50%;
+                                     display: flex;
+                                     align-items: center;
+                                     justify-content: space-around; }
+
+header form .links-container aside i { font-size: 1.6em;
+                                       background-color: #fff;
+                                       padding: 8px;
+                                       height: 40px;
+                                       width: 40px;
+                                       border-radius: 20px;
+                                       transition: 0.3s ease-in-out;
+                                       color: #fff;
+                                       display: flex;
+                                       align-items: center;
+                                       justify-content: center; }
+
+header form .links-container aside .google { color: #e34133; }
+
+header form .links-container aside .google:hover { background-color: #e34133; }
+
+header form .links-container aside .facebook { color:#0a66c2 ; }
+
+header form .links-container aside .facebook:hover { background-color: #0a66c2; }
+
+header form .links-container aside .whatsapp { color: green; }
+
+header form .links-container aside .whatsapp:hover { background-color: green; }
+
+header form .links-container aside .house { color: orange; }
+    
+header form .links-container aside .house:hover { background-color: orange; }
+    
+/*  Banner */
+
+.card-1 { width: 100%;
+          height: 560px;
+          background-image: url(./img/fundo.jpg);
+          background-repeat: no-repeat; 
+          border-left:10px solid #fff; ;  
+          border-top: 10px solid #fff; }
+
+.card-2 { width: 100%;
+          height: 560px;
+          background-image: url(./img/fundo.jpg);
+          background-repeat: no-repeat;
+          border-left:10px solid #fff;  
+          border-top: 10px solid #fff; }
+    
+ .card-3 { width: 100%;
+           height: 560px;
+           background-image: url(./img/fundo.jpg);
+           background-repeat: no-repeat; 
+           border-left:10px solid #fff; 
+           border-top: 10px solid #fff; }
+    
+ .card-4 { width: 100%;
+           height: 560px;
+           background-image: url(./img/fundo.jpg);
+           background-repeat: no-repeat; 
+           border-left:10px solid #fff; 
+           border-top: 10px solid #fff; }
+     
+ .card-6 {  width: 100%;
+            height: 560px;
+            background-image: url(./img/fundo.jpg);
+            background-repeat: no-repeat;  
+            border-left:10px solid #fff;
+            border-top: 10px solid #fff; }                      
+      
+ .card-7 { width: 100%;
+           height: 560px;
+           background-image: url(./img/fundo.jpg);
+           background-repeat: no-repeat; 
+           border-left:10px solid #fff; 
+           border-top: 10px solid #fff; }
+                        
+.card-8 { width: 100%;
+          height: 560px;
+          background-image: url(./img/fundo.jpg);
+          background-repeat: no-repeat; 
+          border-left:10px solid #fff; 
+          border-top: 10px solid #fff; }
+                              
+ .card-9 { width: 100%;
+           height: 560px;
+           background-image: url(./img/fundo.jpg);
+           background-repeat: no-repeat;  
+           border-left:10px solid #fff;
+           border-top: 10px solid #fff; }
+                                
+.card-10 { width: 100%;
+          height: 560px;
+          background-image: url(./img/fundo.jpg);
+          background-repeat: no-repeat; 
+          border-left:10px solid #fff; 
+          border-top: 10px solid #fff; }
+
+          .card-1 { width: 100%;
+            height: 560px;
+            background-image: url(./img/fundo.jpg);
+            background-repeat: no-repeat; 
+            border-left:10px solid #fff;  
+            border-top: 10px solid #fff; }
+  
+  .card-11 { width: 100%;
+            height: 660px;
+            background-image: url(./img/fundo.jpg);
+            background-repeat: no-repeat; 
+            border-left:10px solid #fff; 
+            border-top: 10px solid #fff; }
+      
+   .card-12 { width: 100%;
+             height: 560px;
+             background-image: url(./img/fundo.jpg);
+             background-repeat: no-repeat; 
+             border-left:10px solid #fff; 
+             border-top: 10px solid #fff; }
+      
+   .card-13 { width: 100%;
+             height: 660px;
+             background-image: url(./img/fundo.jpg);
+             background-repeat: no-repeat;
+             border-left:10px solid #fff;  
+             border-top: 10px solid #fff; }
+       
+   .card-14 {  width: 100%;
+              height: 660px;
+              background-image: url(./img/fundo.jpg);
+              background-repeat: no-repeat; 
+              border-left:10px solid #fff; 
+              border-top: 10px solid #fff; }                      
+        
+   .card-15 { width: 100%;
+             height: 660px;
+             background-image: url(./img/fundo.jpg);
+             background-repeat: no-repeat; 
+             border-left:10px solid #fff; 
+             border-top: 10px solid #fff; }
+                          
+  .card-16 { width: 100%;
+            height: 500px;
+            background-image: url(./img/fundo.jpg);
+            background-repeat: no-repeat; 
+            border-left:10px solid #fff; 
+            border-top: 10px solid #fff; }
+                                
+   .card-17 { width: 100%;
+             height: 660px;
+             background-image: url(./img/fundo.jpg);
+             background-repeat: no-repeat;
+             border-left:10px solid #fff;  
+             border-top: 10px solid #fff; }
+                                  
+  .card-18 { width: 100%;
+            height: 660px;
+            background-image: url(./img/fundo.jpg);
+            background-repeat: no-repeat;  
+            border-left:10px solid #fff;
+            border-top: 10px solid #fff; }
+    
+       .card-20 { width: 100%;
+                 height: 660px;
+                 background-image: url(./img/fundo.jpg);
+                 background-repeat: no-repeat; 
+                 border-left:10px solid #fff; 
+                 border-top: 10px solid #fff; }
+          
+       .card-21 { width: 100%;
+                 height: 560px;
+                 background-image: url(./img/fundo.jpg);
+                 background-repeat: no-repeat; 
+                 border-left:10px solid #fff; 
+                 border-top: 10px solid #fff; }
+           
+       .card-22 {  width: 100%;
+                  height: 660px;
+                  background-image: url(./img/fundo.jpg);
+                  background-repeat: no-repeat;  
+                  border-left:10px solid #fff;
+                  border-top: 10px solid #fff; }                      
+            
+       .card-23 { width: 100%;
+                 height: 660px;
+                 background-image: url(./img/fundo.jpg);
+                 background-repeat: no-repeat;  
+                 border-left:10px solid #fff;
+                 border-top: 10px solid #fff; }
+                              
+      .card-24 { width: 100%;
+                height: 560px;
+                background-image: url(./img/fundo.jpg);
+                background-repeat: no-repeat;
+                border-left:10px solid #fff;  
+                border-top: 10px solid #fff; }
+                                    
+       .card-25 { width: 100%;
+                 height: 560px;
+                 background-image: url(./img/fundo.jpg);
+                 background-repeat: no-repeat;  
+                 border-left:10px solid #fff;
+                 border-top: 10px solid #fff; }
+                                      
+      .card-26 { width: 100%;
+                height: 560px;
+                background-image: url(./img/fundo.jpg);
+                background-repeat: no-repeat;
+                border-left:10px solid #fff;  
+                border-top: 10px solid #fff; }
+                                                                                                                   
+ main img { width: 700px;
+            margin-left: 225px; 
+            margin-bottom: 20px;
+            border: 3px solid #fff;
+            border-radius: 15px;
+            box-shadow: 3px 3px black;
+            position: relative;
+            left: 100px;
+            top: 70px; }
+
+footer {   background: linear-gradient(72deg ,rgb(74, 35, 35) 25%, rgb(19, 18, 18), rgb(191, 43, 43)99% ) ; 
+           width: 99.5%;
+           border-bottom: 10px solid #fff ;
+           border-left:10px solid #fff;
+           border-top:  10px solid #fff;
+           height: 240px; }
+        
+.container-footer { max-width: 1100px;
+                    margin-left: 100px; }
+
+.line-footer { margin-left: 100px;
+              display: flex;
+              flex-wrap: wrap; }
+
+
+ .footer-col { position: relative;
+               top: 45px; }
+
+.footer-col ul { list-style: none; }
+
+.footer-col ul li { color: #fff;
+                    margin: 8px 0;
+                    text-shadow: 1px 1px black; }
+
+.footer-col a:hover { text-decoration: underline;
+                      background-color:black;
+                      padding: 5px;
+                      border-radius: 10px; }
+
+.footer-col a:active { background-color: #0a66c2; }  
+          
+     h2 { color: #fff;
+          position: relative; top: 20px;
+          left: 80px; text-shadow:2px 2px black ; }
+    
+    cite { color: #fff; text-shadow: 2px 2px black; text-align: center; 
+           position: relative; left: 200px; top: 40px; font-size: 50px; }
